@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "PISystem", "PISystem\PISystem.esproj", "{9C2B96CB-1893-4709-9B4D-1B4C7D504481}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIClassLibrary", "PIClassLibrary\PIClassLibrary.csproj", "{8C05F341-0D83-46F0-B5BB-68862E9575CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PIBackEnd", "..\..\Test4\PISystem\PIBackEnd\PIBackEnd.csproj", "{6E2D2326-D801-4CB1-B543-4CC711FC506C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C2B96CB-1893-4709-9B4D-1B4C7D504481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2B96CB-1893-4709-9B4D-1B4C7D504481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2B96CB-1893-4709-9B4D-1B4C7D504481}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9C2B96CB-1893-4709-9B4D-1B4C7D504481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2B96CB-1893-4709-9B4D-1B4C7D504481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2B96CB-1893-4709-9B4D-1B4C7D504481}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8C05F341-0D83-46F0-B5BB-68862E9575CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C05F341-0D83-46F0-B5BB-68862E9575CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C05F341-0D83-46F0-B5BB-68862E9575CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C05F341-0D83-46F0-B5BB-68862E9575CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2D2326-D801-4CB1-B543-4CC711FC506C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2D2326-D801-4CB1-B543-4CC711FC506C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2D2326-D801-4CB1-B543-4CC711FC506C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2D2326-D801-4CB1-B543-4CC711FC506C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68338962-F039-4C03-B212-6D0479B18F57}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,65 @@
+[
+  {
+    "Name": "Steev Job",
+    "ID": "101",
+    "Age": 56,
+    "Gender": "Male",
+    "Address": "Texas, America",
+    "Phone": "162 54321",
+    "Status": "I"
+  },
+  {
+    "Name": "Jeb Bosoz",
+    "ID": "103",
+    "Age": 68,
+    "Gender": "Male",
+    "Address": "California, America",
+    "Phone": "162 54321",
+    "Status": "O"
+  },
+  {
+    "Name": "Elon Musk",
+    "ID": "104",
+    "Age": 54,
+    "Gender": "Male",
+    "Address": "Arizona, America",
+    "Phone": "164 54321",
+    "Status": "O"
+  },
+  {
+    "Name": "Waren Buffet",
+    "ID": "105",
+    "Age": 89,
+    "Gender": "Male",
+    "Address": "Ohio, America",
+    "Phone": "152 54321",
+    "Status": "O"
+  },
+  {
+    "Name": "Anil Ambani",
+    "ID": "106",
+    "Age": 58,
+    "Gender": "Male",
+    "Address": "Mumbai, India",
+    "Phone": "914 54321",
+    "Status": "O"
+  },
+  {
+    "Name": "Jack Ma",
+    "ID": "107",
+    "Age": 61,
+    "Gender": "Male",
+    "Address": "Shanhai, China",
+    "Phone": "715 54321",
+    "Status": "I"
+  },
+  {
+    "Name": "Bill Gates",
+    "ID": "102",
+    "Age": 73,
+    "Gender": "Male",
+    "Address": "Seattle, America",
+    "Phone": "189 54321",
+    "Status": "O"
+}
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "ID": "101",
+    "Name": "Paracetamol",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "Not Applicable",
+    "Comment": "Itiching"
+  },
+  {
+    "ID": "102",
+    "Name": "Amoxicillin",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "Vomiting",
+    "Comment": ""
+  },
+  {
+    "ID": "103",
+    "Name": "Buprenorphine",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "N/A",
+    "Comment": "diarriah"
+  },
+  {
+    "ID": "104",
+    "Name": "Citalopram",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "N/A",
+    "Comment": ""
+  },
+  {
+    "ID": "105",
+    "Name": "Ibuprofen",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "toothache,headache",
+    "SEffects": "N/A",
+    "Comment": ""
+  },
+  {
+    "ID": "106",
+    "Name": "Kevzara",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "N/A",
+    "Comment": ""
+  },
+  {
+    "ID": "107",
+    "Name": "Xanax",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "N/A",
+    "Comment": ""
+  },
+  {
+    "ID": "108",
+    "Name": "Zubsolv",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "opoid addiction",
+    "SEffects": "N/A",
+    "Comment": ""
+  },
+  {
+    "ID": "109",
+    "Name": "Ozempic",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "diabetes",
+    "SEffects": "N/A",
+    "Comment": ""
+  },
+  {
+    "ID": "110",
+    "Name": "Melatonin",
+    "Dosage": "1/day",
+    "Type": "Capsules",
+    "Uses": "decrease jet lag",
+    "SEffects": "N/A",
+    "Comment": ""
+  },
+  {
+    "ID": "111",
+    "Name": "Tramadol",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "N/A",
+    "Comment": "Diarriah"
+  },
+  {
+    "ID": "112",
+    "Name": "Rybelsus",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "Not Applicable",
+    "Comment": "vomitting"
+  },
+  {
+    "ID": "113",
+    "Name": "Viagra",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "decrease in blood pressure",
+    "Comment": "Heart Attack,strock"
+  },
+  {
+    "ID": "114",
+    "Name": "Wellbutrin",
+    "Dosage": "3/day",
+    "Type": "Capsules",
+    "Uses": "pain,fever",
+    "SEffects": "depression",
+    "Comment": ""
+  }
+]

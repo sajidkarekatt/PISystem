@@ -1,0 +1,43 @@
+<h1 id="tableLabel">Patient details</h1>
+
+<p *ngIf="!patients"><em>Loading... Please make sure that backend is working.</em></p>
+
+<div class="border">
+  <button class="btn btn-md btn-outline-primary">
+    <i class="fa fa-user"></i>New Patient
+  </button>
+</div>
+
+<div class="container">
+  <table class="table table-bordered table-striped" *ngIf="patients">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let patient of patients">
+        <td>{{ patient.id }}</td>
+        <td>{{ patient.name }}</td>
+        <td>{{ patient.age }}</td>
+        <td>{{ patient.gender }}</td>
+        <td>{{ patient.address }}</td>
+        <td>{{ patient.phone }}</td>
+        <td>{{ patient.status }}</td>
+        <td>
+          <button class="btn btn-sm btn-info">
+            <i class="fa fa-search"></i>Details
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

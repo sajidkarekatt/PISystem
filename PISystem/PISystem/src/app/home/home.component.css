@@ -1,0 +1,85 @@
+body {
+  font-family: 'Teko', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  color: #AEB404;
+  font-size: 30px;
+}
+
+.col {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.box {
+  background: #fff;
+  color: #555;
+  list-style-type: none;
+  border: 1px solid #555;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.3s;
+}
+
+  .box:hover, .box.box-1 {
+    box-shadow: 0 10px 15px 0 #00;
+  }
+
+  .box .header {
+    background-color: #111;
+    color: #fff;
+    font-size: 34px;
+  }
+
+    .box .header.header-color {
+      background-color: #D13902;
+    }
+
+    .box .header.header-color1 {
+      background-color: #4CAf50;
+    }
+
+  .box li {
+    padding: 20px;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+    font-size: 24px;
+  }
+
+.hov:hover {
+  background: #EEE6E8;
+}
+
+.box .price {
+  background-color: #f4f4f4;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #A20101;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+  .button:hover {
+    background-color: #1B4F72;
+  }
+
+@media (max-width: 700px) {
+
+
+  .col {
+    width: 100%;
+  }
+}

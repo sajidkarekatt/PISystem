@@ -1,0 +1,50 @@
+<form #uEntryForm="ngForm" (ngSubmit)="onSubmit(uEntryForm)">
+<fieldset>
+  <legend>New User</legend>
+  <div class="colums">
+    <div class="item">
+      <label for="id"> ID<span>*</span></label>
+      <input id="id" required type="text" name="id" ngModel maxlength="3"/>
+    </div>
+    <div class="item">
+      <label for="name"> Name<span>*</span></label>
+      <input id="name" required type="text" name="name" ngModel />
+    </div>
+    <div class="item">
+      <label for="age">Age</label>
+      <input id="age" type="text" name="age" ngModel />
+    </div>
+    <div class="item">
+      <label for="gender">Gender</label>
+      <select id="gender" type="text" name="gender"  ngModel>
+        <option value="Male">Male </option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+      </select>
+    </div>
+    <div class="item">
+      <label for="address">Address</label>
+      <input id="address" type="text" name="address" ngModel />
+    </div>
+    <div class="item">
+      <label for="phone" >Phone<span>*</span></label>
+      <input id="phone" required type="tel" name="phone" ngModel />
+    </div>
+    <div class="item">
+      <label for="eaddress" >Email Address<span>*</span></label>
+      <input id="eaddress" required type="email" name="eaddress"  ngModel/>
+    </div>
+    <div class="item">
+      <label for="pw" >Password<span>*</span></label>
+      <input id="pw" required type="password" name="pw"  ngModel/>
+    </div>
+    <div class="item">
+      <label for="pwre">Re-Password<span>*</span></label>
+      <input id="pwre" required type="password" name="pwre" ngModel />
+    </div>
+    </div>    
+</fieldset>
+<div class="btn-block">
+  <button type="submit" href="/">Submit</button>
+</div>
+</form>

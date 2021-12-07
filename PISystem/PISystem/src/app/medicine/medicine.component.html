@@ -1,0 +1,37 @@
+<h1 id="tableLabel">Medicine details</h1>
+
+<p *ngIf="!medicines"><em>Loading... Please make sure that backend is working.</em></p>
+
+<div class="border">
+  <button class="btn btn-md btn-outline-primary">
+    <i class="fa fa-user"></i>New Medicine
+  </button>
+</div>
+
+<div class="container">
+  <table class="table table-bordered table-striped" *ngIf="medicines">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Dosage</th>
+        <th>Type</th>
+        <th>Uses</th>
+        <th>Side Effects</th>
+        <th>Comments</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let medicine of medicines">
+        <td>{{ medicine.id }}</td>
+        <td>{{ medicine.name }}</td>
+        <td>{{ medicine.dosage }}</td>
+        <td>{{ medicine.type }}</td>
+        <td>{{ medicine.uses}}</td>
+        <td>{{ medicine.seffects}}</td>
+        <td>{{ medicine.comment}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

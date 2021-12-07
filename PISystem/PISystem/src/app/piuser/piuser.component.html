@@ -1,0 +1,40 @@
+<h1 id="tableLabel">User details</h1>
+
+<p *ngIf="!piusers"><em>Loading... Please make sure that backend is working.</em></p>
+
+<div class="border">
+  <button class="btn btn-md btn-outline-primary" (click)="showUserEntry()">
+    <i class="fa fa-user"></i>New User
+  </button>
+</div>
+
+<div class="container">
+  <table class="table table-bordered table-striped" *ngIf="piusers">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Address</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let user of piusers">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.age }}</td>
+        <td>{{ user.gender }}</td>
+        <td>{{ user.address }}</td>
+        <td>{{ user.phone }}</td>
+        <td>
+          <button class="btn btn-sm btn-danger" (click)="deleteUser(user)">
+            <i class="fa fa-remove" ></i>Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,23 @@
+<div class="form-signin">
+  <form class="form-signin" (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" required id="floatingInput" placeholder="steve@jobs.com"  name="emailid" ngModel>
+      <label for="floatingInput">Email Address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" required id="floatingPassword" placeholder="Password"  name="password" ngModel>
+      <label for="floatingPassword">Password</label>
+    </div>
+  
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+  
+    <div class="alert alert-danger" role="alert" *ngIf="isInvalid">
+      User name and password are mandatory.Please fill it.
+    </div>
+    <div class="alert alert-danger" role="alert" *ngIf="isCredsInvalid">
+      User name or password is wrong!
+    </div>
+  </form>
+</div>

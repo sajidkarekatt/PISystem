@@ -36,7 +36,7 @@ typescript                      4.4.4
 --------------------------------------------------
 Note :
 The solution is only demostrating how to use web api (GET,POST and DELETE) methods.I have not included error handling and user validation functions.
-And also unit testing. 
+And also no unit testing. 
 *********************************************************************************************************************
 NB: I am not a web application developer and have no working experience in Typescript,Angular and Web API. This piece of code demostrate what i have learned in the last two weeks.
 

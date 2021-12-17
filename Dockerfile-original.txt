@@ -10,8 +10,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["PIBackEnd/PIBackEnd.csproj", "PIBackEnd/"]
-COPY ["PIClassLibrary/PIClassLibrary.csproj", "PIClassLibrary/"]
+RUN mkdir PIBackEnd
+COPY ["PIBackEnd.csproj", "PIBackEnd/"]
 RUN dotnet restore "PIBackEnd/PIBackEnd.csproj"
 COPY . .
 WORKDIR "/src/PIBackEnd"

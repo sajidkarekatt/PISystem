@@ -1,0 +1,18 @@
+#Get base image (full .net sdk)
+From mcr.microsoft.com/dotnet/sdk:6.0 as build 
+WORKDIR /app
+
+#copy project file and restore all the dpendanceis 
+COPY *.csproj ./
+RUN dotnet restore
+
+#copy everything from the project and build
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+#Generating runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /dir
+EXPOSE 80
+COPY --from=build  /app/out .
+ENTRYPOINT ["dotnet","PIBackEnd"]

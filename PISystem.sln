@@ -10,9 +10,6 @@ EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "PISystem", "PISystem\PISystem\PISystem.esproj", "{9C2B96CB-1893-4709-9B4D-1B4C7D504481}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFDC6EE3-6BBB-41C5-AF81-AA41A6CDFC57}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Users\sajik\OneDrive\Desktop\README.txt = ..\..\..\..\Users\sajik\OneDrive\Desktop\README.txt
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

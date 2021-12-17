@@ -11,6 +11,7 @@ import { PatientComponent } from './patient/patient.component';
 import { MedicineComponent } from './medicine/medicine.component';
 import { PiuserComponent } from './piuser/piuser.component';
 import { UserEntryComponent } from './user-entry/user-entry.component';
+import { PatientEntryComponent } from './patient-entry/patient-entry.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { UserEntryComponent } from './user-entry/user-entry.component';
     PatientComponent,
     MedicineComponent,
     PiuserComponent,
-    UserEntryComponent    
+    UserEntryComponent,
+    PatientEntryComponent    
   ],
   imports: [
     BrowserModule,
